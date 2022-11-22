@@ -1,0 +1,32 @@
+{
+  "name": "prisma-neverthrow",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r esbuild-register src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/napolab/prisma-neverthrow.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/napolab/prisma-neverthrow/issues"
+  },
+  "homepage": "https://github.com/napolab/prisma-neverthrow#readme",
+  "devDependencies": {
+    "@naporin0624/eslint-config": "^0.4.0",
+    "esbuild": "^0.15.15",
+    "esbuild-register": "^3.4.1",
+    "eslint": "^8.28.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "neverthrow": "^5.1.0"
+  }
+}
